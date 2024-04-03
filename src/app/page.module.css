@@ -1,0 +1,86 @@
+.group {
+  width: 954px;
+  margin: 0 auto;
+  padding: 0 0 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.group li {
+  position: relative;
+  width: 294px;
+  margin: 36px 36px 0 0;
+  border: 1px solid #e5e6e9;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+.group li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.itemInfo {
+  padding: 15px 20px;
+}
+
+.companyInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0;
+  padding: 12px 0;
+  border-top: 1px solid #e5e6e9;
+}
+
+.companyLogo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 8px 0 0;
+  border: 1px solid #e5e6e9;
+  border-radius: 4px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.companyLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.rewardInfo {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #323438;
+  border-top: 1px solid #e5e6e9;
+}
+.icoReward {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 6px 0 0;
+  background: url('/ico_reward.png') 100% / 100%;
+}
+.icoGrade {
+  display: inline-block;
+  margin: 0 3px 0 0;
+  width: 14px;
+  height: 14px;
+  background: url('/ico_star.png') 100% / 100%;
+}
+
+.bookmarked {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 28px;
+  height: 28px;
+  background: url('/bg_bookmark_off.png') 100% / cover;
+  text-indent: -99999px;
+}
+.bookmarked.on {
+  color: blue;
+  background-image: url('/bg_bookmark_on.png');
+}
