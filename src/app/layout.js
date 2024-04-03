@@ -4,7 +4,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: '무한스크롤_테스트_김주아',
+  title: '처음 만나는 NEXT',
   description: '김주아',
 };
 
